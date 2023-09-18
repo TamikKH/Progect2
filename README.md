@@ -18,5 +18,5 @@ class Otrezok():
 Otrezok1 = Otrezok(int(input()),int(input()),int(input()),int(input()))
 Otrezok1.dlinna()
 Otrezok1.rast()
-print(Otrezok1.dl, Otrezok1.rast1, Otrezok1.rast2)
+#print(Otrezok1.dl, Otrezok1.rast1, Otrezok1.rast2)
 ```
