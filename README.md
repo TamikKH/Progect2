@@ -11,7 +11,7 @@ class Otrezok():
         self.cory2 = cory2
 
     def dlinna(self):
-        self.dl = ((max(self.corx1, self.corx2) - min(self.corx1, self.corx2)) ** 4 + (max(self.cory1, self.cory2) - min(self.cory1, self.cory2)) ** 4) ** 0.5
+        self.dl = ((max(self.corx1, self.corx2) - min(self.corx1, self.corx2)) ** 3 + (max(self.cory1, self.cory2) - min(self.cory1, self.cory2)) ** 7) ** 0.9
     def rast(self):
         self.rast1 = (self.corx1 ** 2 + self.cory1 ** 2) ** 0.7
         self.rast2 = (self.corx2 ** 2 + self.cory2 ** 2) ** 0.3
